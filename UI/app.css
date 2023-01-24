@@ -1,0 +1,101 @@
+body{
+  /* background-image: url('https://media.istockphoto.com/id/1390073901/photo/red-curtain-on-the-stage-background-texture.jpg?b=1&s=170667a&w=0&k=20&c=04NTEWYsIX6x6aYK5l8Gk7IWSxXVPPYnRw7CmnzS-jc='); */
+  background-position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+
+
+.card-wrapper {
+    /* margin: 5% 0; */
+    padding: 10px;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 5vw; /* note i used vw not px for better responsive */
+  height: 5vw;
+  padding: 5px;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  /* letter-spacing: 1.1px; */
+  font-size: 13px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 15px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 20px;
+  line-height: initial;
+  color: rgb(238, 238, 244);
+  text-align: center;
+  padding: 100px;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.title{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.heading{
+  text-align: center;
+  box-shadow: 10px 10px 8px #4d025c;
+}
+
+/* .middle{
+  margin-left: 100px;
+  padding: 100px;
+  
+} */
+
+h3{
+  color: white;
+  padding-left: 40px;
+
+}
+
+.bord{
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
