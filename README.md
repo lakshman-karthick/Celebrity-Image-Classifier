@@ -42,9 +42,9 @@ rectangle.
 ## Algorithm:
 
 
-    model	              best_score	
+    model	                  best_score	
 	svm	                   0.918322	
-	random_forest	       0.865342	
+	random_forest	           0.865342	
 	logistic_regression	   0.902869
 
 
